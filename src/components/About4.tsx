@@ -1,3 +1,4 @@
+"use client";
 import { Progress } from "@radix-ui/react-progress";
 import { ChevronDown, ChevronUp, GraduationCap } from "lucide-react";
 import { useEffect, useState } from "react";
