@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Work2 = () => {
@@ -21,8 +22,9 @@ const Work2 = () => {
       <div className="tablet:mr-8 mobile:ml-8 max-mobile:mt-8 flex flex-col justify-center items-center">
         <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
-            <img
+            <Image
               src="musicacademy.png"
+              alt=""
               className="rounded-tr-2xl rounded-tl-2xl w-full h-[9.5rem]  object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
@@ -43,7 +45,8 @@ const Work2 = () => {
         </div>
         <div className="bg-white mt-8 w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
-            <img
+            <Image
+              alt=""
               src="shadowconnect.png"
               className="rounded-tr-2xl rounded-tl-2xl w-full h-[9.5rem]  object-cover transform transition-all duration-300 hover:scale-110"
             />

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Work9 = () => {
   const [showComponent, setShowComponent] = useState(false);
@@ -71,7 +72,8 @@ const Work9 = () => {
       <div className="mobile:mt-0 mt-6">
         <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full h-[15.5rem] overflow-hidden">
-            <img
+            <Image
+              alt=""
               src="portfolio.png"
               className="rounded-tr-2xl rounded-tl-2xl w-full h-full object-cover transform transition-all duration-300 hover:scale-110"
             />

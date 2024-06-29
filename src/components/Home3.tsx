@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -22,7 +23,7 @@ const Home3 = () => {
       <Link href={"/works"}>
         <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer h-full mt-10 mobile:mt-0 w-full mobile:w-56 mr-1">
           <div className="border-b border-gray-300 flex justify-center">
-            <img src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
+            <Image src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
           </div>
           <div>
             <p className="text-gray-500 text-xs font-semibold mt-3">SHOWCASE</p>

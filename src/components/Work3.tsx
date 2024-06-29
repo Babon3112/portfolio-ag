@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Work3 = () => {
@@ -21,7 +22,8 @@ const Work3 = () => {
       <div>
         <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
-            <img
+            <Image
+              alt=""
               src="currencyconverter.png"
               className="rounded-tr-2xl rounded-tl-2xl w-full h-[18rem]  object-cover transform transition-all duration-300 hover:scale-110"
             />

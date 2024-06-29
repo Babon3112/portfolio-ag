@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -29,8 +30,9 @@ const Work1 = () => {
         </div>
         <div className="bg-white mt-8 w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-auto">
           <div className="w-full overflow-hidden">
-            <img
+            <Image
               src="eazybuy.png"
+              alt=""
               className="rounded-tr-2xl rounded-tl-2xl w-full h-[13.5rem] object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>

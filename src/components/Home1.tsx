@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Home1 = () => {
@@ -20,7 +21,7 @@ const Home1 = () => {
     >
       <div className="flex border border-gray-300 rounded-2xl bg-white w-96 mobile:w-[30rem] h-[16rem] justify-center items-center mr-0 tablet:mr-5 mb-2 tablet:mb-0">
         <div className="w-80 ml-8 mr-4">
-          <img
+          <Image
             src="Image.png"
             alt="_blank"
             className="rounded-tr-2xl rounded-bl-2xl"

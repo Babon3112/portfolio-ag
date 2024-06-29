@@ -1,5 +1,6 @@
 "use client";
 import { FileDown } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Home8 = () => {
@@ -21,7 +22,7 @@ const Home8 = () => {
     >
       <div className="flex flex-col w-96 border border-gray-300 rounded-2xl tablet:m-0 mt-10">
         <div className="flex justify-center">
-          <img src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
+          <Image src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
         </div>
         <div className="w-full border-t border-gray-300">
           <div className="flex text-gray-500 text-xs justify-center font-semibold mt-3">

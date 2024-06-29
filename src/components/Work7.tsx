@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Work7 = () => {
@@ -20,7 +21,8 @@ const Work7 = () => {
     >
       <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 tablet:mr-8 overflow-hidden">
         <div className="w-full h-[22.4rem] overflow-hidden">
-          <img
+          <Image
+            alt=""
             src="tictactoe.png"
             className="rounded-tr-2xl rounded-tl-2xl w-full h-full object-cover transform transition-all duration-300 hover:scale-110"
           />
