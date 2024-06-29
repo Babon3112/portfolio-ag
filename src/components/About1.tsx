@@ -36,7 +36,7 @@ const About1 = () => {
             graduated from B.Tech in Computer Science Engineering from JIS
             University. Seeking an Organization to improve my skills and
             contribute my Acadamic Learning. Looking forward to discussing how I
-            align with your Organization's goals.
+            align with your Organization&apos;s goals.
           </p>
         </div>
       </div>

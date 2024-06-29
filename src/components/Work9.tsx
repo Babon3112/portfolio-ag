@@ -82,7 +82,7 @@ const Work9 = () => {
             Portfolio Design
           </p>
           <h1 className="flex mb-2 font-bold">
-            Arnab's Porfolio
+            Arnab&apos;s Porfolio
             <svg
               width="20px"
               height="20px"

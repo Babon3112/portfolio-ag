@@ -28,7 +28,7 @@ const Work5 = () => {
           />
         </div>
         <p className="mt-4 mb-2 font-medium text-sm text-gray-500">
-          Let's Shedule Your Day
+          Let&apos;s Shedule Your Day
         </p>
         <h1 className="flex mb-4 font-bold">
           TO DO LIST

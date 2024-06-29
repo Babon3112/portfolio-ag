@@ -22,8 +22,8 @@ const HomeText = () => {
         <div className="marquee">
           <p>
             Welcome to the Official portfolio of Arnab Ghosh, This platform is
-            more than just a showcase of my projects, it's a reflection of my
-            passion, dedication, and growth as a professional.
+            more than just a showcase of my projects, it&apos;s a reflection of
+            my passion, dedication, and growth as a professional.
           </p>
         </div>
       </div>

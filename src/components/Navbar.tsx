@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className=" bg-[#f5f5f5]">
       <div className="mx-auto h-24 flex mobile:max-w-7xl items-center justify-between px-4 py-2 mobile:px-6 laptop:px-8">
         <h1 className="font-sofia font-bold text-2xl tablet:text-3xl text-gray-900">
-          Arnab's Portfolio
+          Arnab&apos;s Portfolio
         </h1>
 
         <div className="hidden mobile:block">
