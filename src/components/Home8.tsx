@@ -1,7 +1,7 @@
 "use client";
 import { FileDown } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 const Home8 = () => {
   const [showComponent, setShowComponent] = useState(false);
@@ -14,6 +14,15 @@ const Home8 = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  const downloadResume = useCallback(() => {
+    const link = document.createElement("a");
+    link.href = "ArnabGhoshResume.pdf";
+    link.download = "Arnab Ghosh Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, []);
+
   return (
     <div
       className={`transition-opacity duration-1000 ease-in ${
@@ -24,7 +33,10 @@ const Home8 = () => {
         <div className="flex justify-center mb-3">
           <Image src="/cv.png" width={175} height={175} alt="" />
         </div>
-        <div className="w-full border-t border-gray-300 ">
+        <div
+          className="w-full border-t border-gray-300 cursor-pointer"
+          onClick={downloadResume}
+        >
           <div className="flex text-gray-500 text-xs justify-center font-semibold mt-2">
             DOWNLOAD CV <FileDown className="size-4" />
           </div>
