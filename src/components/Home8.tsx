@@ -21,14 +21,14 @@ const Home8 = () => {
       }`}
     >
       <div className="flex flex-col w-96 border border-gray-300 rounded-2xl tablet:m-0 mt-10">
-        <div className="flex justify-center">
-          <Image src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
+        <div className="flex justify-center mb-3">
+          <Image src="/cv.png" width={175} height={175} alt="" />
         </div>
-        <div className="w-full border-t border-gray-300">
-          <div className="flex text-gray-500 text-xs justify-center font-semibold mt-3">
+        <div className="w-full border-t border-gray-300 ">
+          <div className="flex text-gray-500 text-xs justify-center font-semibold mt-2">
             DOWNLOAD CV <FileDown className="size-4" />
           </div>
-          <h1 className="text-xl font-bold text-center mb-3">
+          <h1 className="text-xl font-bold text-center mb-2">
             Curriculum Vitae
           </h1>
         </div>

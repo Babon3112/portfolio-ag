@@ -23,13 +23,19 @@ const Home5 = () => {
       <Link href={"/works"}>
         <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer h-full w-full mobile:w-56 mt-10 mobile:mt-0">
           <div className="border-b border-gray-300 flex justify-center">
-            <Image src="skills.png" alt="" className="w-40 m-3 mt-1 mb-1" />
+            <Image
+              src="/skills.png"
+              width={140}
+              height={140}
+              alt=""
+              className="my-2"
+            />
           </div>
-          <div>
-            <p className="text-gray-500 text-xs font-semibold mt-3">
+          <div className="my-2">
+            <p className="text-gray-500 text-xs font-semibold mb-1">
               MY SKILLSETS
             </p>
-            <h1 className="text-xl font-bold mb-3">Skills</h1>
+            <h1 className="text-xl font-bold mt-1">Skills</h1>
           </div>
         </div>
       </Link>

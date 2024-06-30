@@ -20,11 +20,13 @@ const About1 = () => {
       }`}
     >
       <div className="border border-gray-300 rounded-2xl bg-white w-96 mobile:w-[40rem] tablet:w-80">
-        <div className="flex justify-center mt-9">
+        <div className="flex justify-center mt-8">
           <Image
-            src="Image.png"
+            src="/Image.png"
             alt="_blank"
-            className="rounded-tr-xl rounded-tl-xl w-60"
+            width={250}
+            height={250}
+            className="rounded-tr-xl rounded-tl-xl"
           />
         </div>
         <div className="mt-4 mb-9 w-full flex-col flex justify-center items-center">

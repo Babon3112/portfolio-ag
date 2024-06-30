@@ -20,7 +20,7 @@ const Home6 = () => {
       }`}
     >
       <div className="border border-gray-300 bg-white rounded-xl mt-10 tablet:mt-0 mobile:mt-7">
-        <div className="flex mobile:w-[30rem] justify-evenly items-center border-b border-gray-300 h-[7.75rem]">
+        <div className="flex mobile:w-[30rem] justify-evenly items-center border-b border-gray-300 h-[9.5rem]">
           <Link
             href="https://github.com/babon3112/"
             target="_blank"
@@ -28,7 +28,7 @@ const Home6 = () => {
           >
             <svg
               className="p-3 hover:fill-white fill-[#2b3137]"
-              height={45}
+              height={50}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="-2.5 0 19 19"
             >
@@ -43,7 +43,7 @@ const Home6 = () => {
             <svg
               viewBox="0 -2 44 44"
               className="p-3.5 fill-[#0077B5] hover:fill-white"
-              height={45}
+              height={50}
               xmlns="http://www.w3.org/2000/svg"
             >
               <g transform="translate(-702.000000, -265.000000)">
@@ -61,7 +61,7 @@ const Home6 = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height={45}
+              height={50}
               className="p-3 fill-[#5865f2] hover:fill-white"
               viewBox="0 0 16 16"
             >
@@ -77,7 +77,7 @@ const Home6 = () => {
               className="p-3.5 hover:fill-white fill-[#24a1de]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 300 300"
-              height={45}
+              height={50}
             >
               <g id="XMLID_496_">
                 <path
@@ -98,7 +98,7 @@ const Home6 = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height={45}
+              height={50}
               className="p-3.5 hover:fill-white fill-[#25d366]"
               viewBox="0 0 16 16"
             >
@@ -106,11 +106,11 @@ const Home6 = () => {
             </svg>
           </Link>
         </div>
-        <div className="flex flex-col items-center">
-          <p className="text-gray-500 text-xs font-semibold mt-3">
+        <div className="flex flex-col items-center my-2">
+          <p className="text-gray-500 text-xs font-semibold mb-1">
             GET IN TOUCH
           </p>
-          <h1 className="text-xl font-bold mb-3">Profiles</h1>
+          <h1 className="text-xl font-bold mt-1">Profiles</h1>
         </div>
       </div>
     </div>

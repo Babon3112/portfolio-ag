@@ -21,13 +21,19 @@ const Home3 = () => {
       }`}
     >
       <Link href={"/works"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer h-full mt-10 mobile:mt-0 w-full mobile:w-56 mr-1">
+        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer mt-10 mobile:mt-0 w-full mobile:w-56 mr-1">
           <div className="border-b border-gray-300 flex justify-center">
-            <Image src="desktop.png" alt="" className="w-48 m-3 mt-1 mb-1" />
+            <Image
+              src="/desktop.jpg"
+              width={180}
+              height={180}
+              alt=""
+              className="mt-2 mb-2"
+            />
           </div>
-          <div>
-            <p className="text-gray-500 text-xs font-semibold mt-3">SHOWCASE</p>
-            <h1 className="text-xl font-bold mb-3">Projects</h1>
+          <div className="my-2">
+            <p className="text-gray-500 text-xs font-semibold mb-1">SHOWCASE</p>
+            <h1 className="text-xl font-bold mt-1">Projects</h1>
           </div>
         </div>
       </Link>
