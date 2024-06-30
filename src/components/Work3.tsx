@@ -23,9 +23,11 @@ const Work3 = () => {
         <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
             <Image
+              width={335}
+              height={335}
               alt=""
-              src="currencyconverter.png"
-              className="rounded-tr-2xl rounded-tl-2xl w-full h-[18rem]  object-cover transform transition-all duration-300 hover:scale-110"
+              src="/currencyconverter.png"
+              className="rounded-tr-2xl rounded-tl-2xl h-[18rem] object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
           <p className="mt-4 mb-2 font-medium text-sm text-gray-500">

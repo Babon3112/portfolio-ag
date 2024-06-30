@@ -23,8 +23,10 @@ const Work5 = () => {
         <div className="w-full h-[22.4rem] overflow-hidden">
           <Image
             alt=""
-            src="todo.png"
-            className="rounded-tr-2xl rounded-tl-2xl w-full h-full object-cover transform transition-all duration-300 hover:scale-110"
+            width={335}
+            height={335}
+            src="/todo.png"
+            className="rounded-tr-2xl rounded-tl-2xl h-full object-cover transform transition-all duration-300 hover:scale-110"
           />
         </div>
         <p className="mt-4 mb-2 font-medium text-sm text-gray-500">

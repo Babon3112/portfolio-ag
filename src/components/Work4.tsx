@@ -23,9 +23,11 @@ const Work4 = () => {
         <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
             <Image
+              width={335}
+              height={335}
               alt=""
-              src="stopwatch.png"
-              className="rounded-tr-2xl rounded-tl-2xl w-full h-[9.5rem]  object-cover transform transition-all duration-300 hover:scale-110"
+              src="/stopwatch.png"
+              className="rounded-tr-2xl rounded-tl-2xl h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
           <p className="mt-1 font-medium text-sm text-gray-500">
@@ -46,9 +48,11 @@ const Work4 = () => {
         <div className="bg-white mt-8 w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
           <div className="w-full overflow-hidden">
             <Image
+              width={335}
+              height={335}
               alt=""
-              src="blogify.png"
-              className="rounded-tr-2xl rounded-tl-2xl w-full h-[9.5rem]  object-cover transform transition-all duration-300 hover:scale-110"
+              src="/blogify.png"
+              className="rounded-tr-2xl rounded-tl-2xl h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
           <p className="mt-1 font-medium text-sm text-gray-500">

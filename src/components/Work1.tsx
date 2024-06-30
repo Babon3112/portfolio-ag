@@ -31,9 +31,11 @@ const Work1 = () => {
         <div className="bg-white mt-8 w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-auto">
           <div className="w-full overflow-hidden">
             <Image
-              src="eazybuy.png"
+              src="/eazybuy.png"
               alt=""
-              className="rounded-tr-2xl rounded-tl-2xl w-full h-[13.5rem] object-cover transform transition-all duration-300 hover:scale-110"
+              width={335}
+              height={335}
+              className="rounded-tr-2xl rounded-tl-2xl h-[13.5rem] object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
           <p className="mt-5 mb-3 font-medium text-sm text-gray-500">

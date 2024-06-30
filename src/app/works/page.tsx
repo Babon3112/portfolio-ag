@@ -57,14 +57,14 @@ const WorksPage = () => {
               size={30}
               strokeWidth={1.5}
               onClick={showMoreProjects}
-              className="animate-bounce"
+              className="animate-bounce cursor-pointer"
             />
           ) : (
             <ArrowDown
               size={30}
               strokeWidth={1.5}
               onClick={showMoreProjects}
-              className="animate-bounce"
+              className="animate-bounce cursor-pointer"
             />
           )}
         </div>
