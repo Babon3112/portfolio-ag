@@ -1,5 +1,5 @@
 "use client";
-import { Progress } from "@radix-ui/react-progress";
+import { Progress } from "@/components/ui/progress";
 import { ChevronDown, ChevronUp, GraduationCap } from "lucide-react";
 import { useEffect, useState } from "react";
 
