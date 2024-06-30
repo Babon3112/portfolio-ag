@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AI For Everyone",
+    "image": "/CourseraAIForEveryone.jpg"
+  },
+  {
+    "name": "Data Science",
+    "image": "/CourseraDataScience.jpg"
+  },
+  {
+    "name": "Mathematical Thinking for Computer Science",
+    "image": "/CourseraMathematicalThinkingforComputerScience.jpg"
+  },
+  {
+    "name": "Relational Database Systems",
+    "image": "/CourseraRelationalDatabaseSystems.jpg"
+  },
+  {
+    "name": "AWS",
+    "image": "/AWSCertificate.jpg"
+  },
+  {
+    "name": "Cyber Security",
+    "image": "/CyberSecurityCertificate.jpg"
+  }
+]

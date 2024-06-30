@@ -73,6 +73,11 @@
 
   body {
     @apply bg-background text-foreground;
+
+    --swiper-navigation-color: #888888;
+    --swiper-pagination-color: #888888;
+    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-top-offset: 35%;
   }
 
   @font-face {
@@ -132,5 +137,28 @@
   .rating label:hover,
   .rating label:hover~label {
     color: #FF9954;
+  }
+
+  .mySwiper:hover .swiper-button-prev {
+    opacity: 100%;
+  }
+
+  .mySwiper:hover .swiper-button-next {
+    opacity: 100%;
+  }
+
+  .swiper-button-next {
+    color: rgb(169, 169, 169);
+    right: 20px;
+    opacity: 0%;
+    transition: 0.2s ease-in-out;
+  }
+
+  .swiper-button-prev {
+
+    color: rgb(169, 169, 169);
+    left: 20px;
+    opacity: 0%;
+    transition: 0.2s ease-in-out;
   }
 }

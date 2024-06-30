@@ -18,7 +18,7 @@ const config = {
     },
     letterSpacing: {
       wider: ".075em",
-      widest: ".20em",
+      widest: ".2em",
     },
     screens: {
       mobile: "675px",
