@@ -161,4 +161,10 @@
     opacity: 0%;
     transition: 0.2s ease-in-out;
   }
+
+  .remove-arrow::-webkit-inner-spin-button,
+  .remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 }

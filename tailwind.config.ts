@@ -18,6 +18,7 @@ const config = {
     },
     letterSpacing: {
       wider: ".075em",
+      widerer: ".15em",
       widest: ".2em",
     },
     screens: {
