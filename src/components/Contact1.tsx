@@ -19,7 +19,7 @@ const Contact1 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="w-[30rem] border border-gray-300 bg-white rounded-xl p-8 text-sm font-medium">
+      <div className="tablet:w-[30rem] border border-gray-300 bg-white rounded-xl p-8 text-sm font-medium">
         <h1 className="text-2xl font-semibold text-center text-gray-600">
           GET IN TOUCH
         </h1>

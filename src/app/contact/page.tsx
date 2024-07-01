@@ -8,7 +8,7 @@ const contactpage = () => {
     <div className="flex bg-[#f7f7f7] justify-center">
       <div className="mx-auto flex justify-between mobile:justify-center flex-col tablet:flex-row m-20">
         <Contact1 />
-        <div className="ml-10">
+        <div className="tablet:ml-10">
           <Contact2 />
           <Contact3 />
           <About2 />
