@@ -21,7 +21,7 @@ const Home3 = () => {
       }`}
     >
       <Link href={"/works"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer mt-10 mobile:mt-0 w-full mobile:w-56 mr-1">
+        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer mt-10 mobile:mt-0 w-[21rem] mobile:w-56 mr-1">
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/desktop.jpg"

@@ -19,7 +19,7 @@ const About1 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 rounded-2xl bg-white w-96 mobile:w-[40rem] tablet:w-80">
+      <div className="border border-gray-300 rounded-2xl bg-white w-[21rem] mobile:w-[40rem] tablet:w-80">
         <div className="flex justify-center mt-8">
           <Image
             src="/Image2.jpg"

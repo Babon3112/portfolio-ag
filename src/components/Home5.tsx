@@ -21,7 +21,7 @@ const Home5 = () => {
       }`}
     >
       <Link href={"/works"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer h-full w-full mobile:w-56 mt-10 mobile:mt-0">
+        <div className="border border-gray-300 bg-white rounded-xl text-center cursor-pointer w-[21rem] mobile:w-56 mt-10 mobile:mt-0">
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/skills.png"

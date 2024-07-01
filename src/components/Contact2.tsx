@@ -19,7 +19,7 @@ const Contact2 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="w-96 mobile:w-[40rem] tablet:w-80 border border-gray-300 bg-white rounded-xl p-5 pl-6 text-sm text-gray-500 space-y-2 mt-10 tablet:mt-0">
+      <div className="w-[21rem] mobile:w-[40rem] tablet:w-80 border border-gray-300 bg-white rounded-xl p-5 pl-6 text-sm text-gray-500 space-y-2 mt-10 tablet:mt-0">
         <h3 className="flex">
           <Phone className="size-5 mr-1" />
           +91 6295 400 897

@@ -37,7 +37,7 @@ const About5 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="mt-8 mb-8 border border-gray-300 rounded-2xl bg-white pt-4 mobile:p-4 p-2 mobile:pb-2">
+      <div className="mt-8 mb-8 border border-gray-300 rounded-2xl bg-white pt-4 mobile:p-4 p-2 mobile:pb-2 w-[21rem] mobile:w-[40rem]">
         <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500">
           | Skills {moredata && <span>& Softwares</span>} |
         </h1>
@@ -49,8 +49,11 @@ const About5 = () => {
               className="border border-[#ffd600] rounded-full hover:bg-[#ffd600]"
             >
               {!isJS ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 48 48" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 48 48"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <path fill="#ffd600" d="M6,42V6h36v36H6z" />
                     <path
                       fill="#000001"
@@ -59,7 +62,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-white font-semibold p-1">
                   80%
                 </h2>
               )}
@@ -70,8 +73,11 @@ const About5 = () => {
               className="border border-[#000] rounded-full  hover:bg-[#000]"
             >
               {!isNext ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 512 512" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 512 512"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <g transform="translate(.722 .64) scale(6.375)">
                       <circle cx="40" cy="40" r="40" />
                       <path
@@ -95,7 +101,7 @@ const About5 = () => {
                         gradientTransform="rotate(51.103 -29.93 76.555) scale(25.1269)"
                       >
                         <stop offset="0" stop-color="#fff" />
-                        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                        <stop offset="1" stop-color="#fff" stopOpacity="0" />
                       </linearGradient>
                       <linearGradient
                         id="prefix___Linear2"
@@ -113,7 +119,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-white font-semibold p-1">
                   60%
                 </h2>
               )}
@@ -124,8 +130,11 @@ const About5 = () => {
               className="border border-[#00D8FF] rounded-full  hover:bg-[#00D8FF]"
             >
               {!isReact ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 122.88 109.43" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 122.88 109.43"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <path
                       fill="#00D8FF"
                       d="M122.88,54.73c0-8.14-10.19-15.85-25.82-20.64c3.61-15.93,2-28.6-5.06-32.66c-1.63-0.95-3.53-1.4-5.61-1.4 v5.59c1.15,0,2.08,0.23,2.86,0.65c3.41,1.95,4.88,9.39,3.73,18.96c-0.28,2.35-0.73,4.83-1.28,7.36c-4.91-1.2-10.27-2.13-15.9-2.73 c-3.38-4.63-6.89-8.84-10.42-12.52C73.54,9.74,81.2,5.59,86.41,5.59V0l0,0c-6.89,0-15.9,4.91-25.02,13.43 C52.27,4.96,43.26,0.1,36.37,0.1v5.59c5.18,0,12.87,4.13,21.04,11.67c-3.51,3.68-7.01,7.86-10.34,12.5 c-5.66,0.6-11.02,1.53-15.93,2.75c-0.58-2.5-1-4.93-1.3-7.26c-1.18-9.57,0.28-17.01,3.66-18.99c0.75-0.45,1.73-0.65,2.88-0.65V0.13 l0,0c-2.1,0-4.01,0.45-5.66,1.4c-7.04,4.06-8.62,16.71-4.98,32.59C10.14,38.92,0,46.61,0,54.73c0,8.14,10.19,15.85,25.82,20.64 c-3.61,15.93-2,28.6,5.06,32.66c1.63,0.95,3.53,1.4,5.64,1.4c6.89,0,15.9-4.91,25.02-13.43c9.12,8.47,18.13,13.33,25.02,13.33 c2.1,0,4.01-0.45,5.66-1.4c7.04-4.06,8.62-16.71,4.98-32.59C112.74,70.56,122.88,62.84,122.88,54.73L122.88,54.73z M72.86,54.73 c0-6.32-5.12-11.45-11.45-11.45c-6.32,0-11.45,5.12-11.45,11.45s5.12,11.45,11.45,11.45C67.74,66.17,72.86,61.05,72.86,54.73 L72.86,54.73z M36.34,0.1L36.34,0.1L36.34,0.1L36.34,0.1z M90.27,38.02c-0.93,3.23-2.08,6.56-3.38,9.89c-1.03-2-2.1-4.01-3.28-6.01 c-1.15-2-2.38-3.96-3.61-5.86C83.56,36.57,86.99,37.22,90.27,38.02L90.27,38.02z M78.8,64.7c-1.95,3.38-3.96,6.59-6.04,9.57 c-3.73,0.33-7.51,0.5-11.32,0.5c-3.78,0-7.56-0.18-11.27-0.48c-2.08-2.98-4.11-6.16-6.06-9.52c-1.9-3.28-3.63-6.61-5.21-9.97 c1.55-3.36,3.31-6.71,5.18-9.99c1.95-3.38,3.96-6.59,6.04-9.57c3.73-0.33,7.51-0.5,11.32-0.5c3.78,0,7.56,0.18,11.27,0.48 c2.08,2.98,4.11,6.16,6.06,9.52c1.9,3.28,3.63,6.61,5.21,9.97C82.4,58.06,80.68,61.41,78.8,64.7L78.8,64.7z M86.89,61.44 c1.35,3.36,2.5,6.71,3.46,9.97c-3.28,0.8-6.74,1.48-10.32,2c1.23-1.93,2.45-3.91,3.61-5.94C84.78,65.47,85.86,63.44,86.89,61.44 L86.89,61.44z M61.49,88.16c-2.33-2.4-4.66-5.08-6.96-8.01c2.25,0.1,4.56,0.18,6.89,0.18c2.35,0,4.68-0.05,6.96-0.18 C66.12,83.08,63.79,85.76,61.49,88.16L61.49,88.16z M42.86,73.41c-3.56-0.53-6.99-1.18-10.27-1.98c0.93-3.23,2.08-6.56,3.38-9.89 c1.03,2,2.1,4.01,3.28,6.01C40.43,69.56,41.63,71.51,42.86,73.41L42.86,73.41z M61.36,21.29c2.33,2.4,4.66,5.08,6.96,8.01 c-2.25-0.1-4.56-0.18-6.89-0.18c-2.35,0-4.68,0.05-6.96,0.18C56.73,26.37,59.06,23.69,61.36,21.29L61.36,21.29z M42.83,36.04 c-1.23,1.93-2.45,3.91-3.61,5.94c-1.15,2-2.23,4.01-3.26,6.01c-1.35-3.36-2.5-6.71-3.46-9.97C35.79,37.24,39.25,36.57,42.83,36.04 L42.83,36.04z M20.16,67.4c-8.87-3.78-14.6-8.74-14.6-12.67c0-3.93,5.74-8.92,14.6-12.67c2.15-0.93,4.51-1.75,6.94-2.53 c1.43,4.91,3.31,10.02,5.64,15.25c-2.3,5.21-4.16,10.29-5.56,15.18C24.7,69.18,22.34,68.33,20.16,67.4L20.16,67.4z M33.64,103.19 c-3.41-1.95-4.88-9.39-3.73-18.96c0.28-2.35,0.73-4.83,1.28-7.36c4.91,1.2,10.27,2.13,15.9,2.73c3.38,4.63,6.89,8.84,10.42,12.52 c-8.17,7.59-15.83,11.75-21.04,11.75C35.34,103.84,34.39,103.62,33.64,103.19L33.64,103.19z M93.05,84.11 c1.18,9.57-0.28,17.01-3.66,18.99c-0.75,0.45-1.73,0.65-2.88,0.65c-5.18,0-12.87-4.13-21.04-11.67c3.51-3.68,7.01-7.86,10.34-12.5 c5.66-0.6,11.02-1.53,15.93-2.76C92.32,79.35,92.77,81.78,93.05,84.11L93.05,84.11z M102.69,67.4c-2.15,0.93-4.51,1.75-6.94,2.53 c-1.43-4.91-3.31-10.02-5.64-15.25c2.3-5.21,4.16-10.29,5.56-15.18c2.48,0.78,4.83,1.63,7.04,2.55c8.87,3.78,14.6,8.74,14.6,12.67 C117.29,58.66,111.56,63.64,102.69,67.4L102.69,67.4z"
@@ -133,7 +142,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-white font-semibold p-1">
                   70%
                 </h2>
               )}
@@ -144,8 +153,11 @@ const About5 = () => {
               className="border border-[#388e3c] rounded-full  hover:bg-[#388e3c]"
             >
               {!isNode ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 109 122.88" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 109 122.88"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <path
                       fill="#388e3c"
                       d="M68.43,87.08c-19.7,0-23.83-9.04-23.83-16.63c0-0.72,0.58-1.3,1.3-1.3h5.82c0.64,0,1.18,0.47,1.28,1.1 c0.88,5.93,3.49,8.92,15.41,8.92c9.49,0,13.52-2.14,13.52-7.18c0-2.9-1.15-5.05-15.89-6.49c-12.33-1.22-19.95-3.93-19.95-13.8 c0-9.08,7.66-14.49,20.5-14.49c14.42,0,21.56,5,22.46,15.76c0.03,0.37-0.1,0.73-0.35,1c-0.25,0.26-0.6,0.42-0.96,0.42H81.9 c-0.61,0-1.14-0.43-1.26-1.01c-1.41-6.23-4.81-8.23-14.07-8.23c-10.36,0-11.56,3.61-11.56,6.31c0,3.28,1.42,4.24,15.4,6.09 c13.84,1.84,20.41,4.43,20.41,14.16c0,9.81-8.18,15.43-22.45,15.43L68.43,87.08L68.43,87.08z M54.52,122.88 c-1.65,0-3.28-0.43-4.72-1.26l-15.03-8.9c-2.25-1.26-1.15-1.7-0.41-1.96c2.99-1.05,3.6-1.28,6.8-3.1c0.34-0.19,0.78-0.12,1.12,0.08 l11.55,6.85c0.42,0.23,1.01,0.23,1.4,0l45.03-25.99c0.42-0.24,0.69-0.72,0.69-1.22V35.43c0-0.52-0.27-0.98-0.7-1.24L55.23,8.22 c-0.42-0.25-0.97-0.25-1.39,0l-45,25.97c-0.44,0.25-0.71,0.73-0.71,1.23v51.96c0,0.5,0.27,0.97,0.7,1.21l12.33,7.12 c6.69,3.35,10.79-0.6,10.79-4.56V39.86c0-0.73,0.57-1.3,1.31-1.3l5.7,0c0.71,0,1.3,0.56,1.3,1.3v51.31 c0,8.93-4.87,14.05-13.33,14.05c-2.6,0-4.66,0-10.38-2.82L4.72,95.59C1.8,93.9,0,90.75,0,87.38V35.42c0-3.38,1.8-6.54,4.72-8.21 l45.07-26c2.85-1.61,6.64-1.61,9.47,0l45.02,26.01c2.91,1.68,4.72,4.82,4.72,8.21v51.96c0,3.37-1.81,6.51-4.72,8.21l-45.02,26 c-1.44,0.83-3.08,1.26-4.74,1.26L54.52,122.88L54.52,122.88z M54.52,122.88L54.52,122.88L54.52,122.88L54.52,122.88z"
@@ -153,7 +165,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-white font-semibold p-1">
                   75%
                 </h2>
               )}
@@ -164,8 +176,11 @@ const About5 = () => {
               className="border border-[#5382A1] rounded-full  hover:bg-[#5382A1]"
             >
               {!isJava ? (
-                <div className="m-2">
-                  <svg height={30} width={30} viewBox="0 0 90.63 122.88">
+                <div className="p-2">
+                  <svg
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                    viewBox="0 0 90.63 122.88"
+                  >
                     <path
                       fill="#5382A1"
                       d="M29.19,95.03c0,0-4.7,2.73,3.34,3.65c9.74,1.11,14.71,0.95,25.44-1.08c0,0,2.82,1.77,6.76,3.3 C40.68,111.22,10.29,100.31,29.19,95.03L29.19,95.03z"
@@ -201,7 +216,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-white font-semibold p-1">
                   65%
                 </h2>
               )}
@@ -212,8 +227,11 @@ const About5 = () => {
               className="border-[#ff5900] border rounded-full  hover:bg-[#ff5900]"
             >
               {!isHTML ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 48 48" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 48 48"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <path
                       fill="#E65100"
                       d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"
@@ -230,7 +248,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[18.8px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-white font-semibold p-1">
                   90%
                 </h2>
               )}
@@ -241,8 +259,11 @@ const About5 = () => {
               className="border border-[#00aaff] rounded-full  hover:bg-[#00aaff]"
             >
               {!isCSS ? (
-                <div className="m-2">
-                  <svg viewBox="0 0 48 48" height={30} width={30}>
+                <div className="p-2">
+                  <svg
+                    viewBox="0 0 48 48"
+                    className="mobile:h-8 mobile:w-8 h-5 w-5"
+                  >
                     <path
                       fill="#0277BD"
                       d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"
@@ -259,7 +280,7 @@ const About5 = () => {
                   </svg>
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-[18.5px] flex justify-center items-center text-white font-semibold">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-white font-semibold p-1">
                   90%
                 </h2>
               )}
@@ -273,8 +294,11 @@ const About5 = () => {
                 className="border border-[#599636] rounded-full  hover:bg-[#599636]"
               >
                 {!isMongo ? (
-                  <div className="m-2">
-                    <svg viewBox="0 0 598.88 1333.33" height={30} width={30}>
+                  <div className="p-2">
+                    <svg
+                      viewBox="0 0 598.88 1333.33"
+                      className="mobile:h-8 mobile:w-8 h-5 w-5"
+                    >
                       <path
                         d="M295.27 3.65l35.58 66.83c8 12.33 16.67 23.25 26.87 33.42 29.79 29.79 58.08 60.99 83.5 94.41 60.28 79.16 100.95 167.07 129.98 262.14 17.42 58.08 26.87 117.66 27.58 177.9 2.91 180.11-58.83 334.76-183.31 463.28-20.33 20.33-42.08 39.16-65.41 55.91-12.33 0-18.17-9.46-23.25-18.16-9.45-15.96-15.25-34.17-18.16-52.29-4.38-21.8-7.25-43.58-5.83-66.08v-10.16c-1-2.17-11.87-1002.07-7.54-1007.19v.01z"
                         fill="#599636"
@@ -290,7 +314,7 @@ const About5 = () => {
                     </svg>
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-white font-semibold p-1">
                     65%
                   </h2>
                 )}
@@ -301,8 +325,11 @@ const About5 = () => {
                 className="border border-[#06b6d4] rounded-full  hover:bg-[#06b6d4]"
               >
                 {!isTCss ? (
-                  <div className="m-2">
-                    <svg viewBox="0 0 122.88 73.29" height={30} width={30}>
+                  <div className="p-2">
+                    <svg
+                      viewBox="0 0 122.88 73.29"
+                      className="mobile:h-8 mobile:w-8 h-5 w-5"
+                    >
                       <path
                         fill="#06b6d4"
                         d="M61.44,0Q36.87,0,30.72,24.43q9.22-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.26,6,6.08,13,13.11,28.22,13.11q24.57,0,30.72-24.43-9.21,12.22-21.5,9.16c-4.68-1.16-8-4.53-11.72-8.26C83.64,7,76.67,0,61.44,0ZM30.72,36.64Q6.15,36.64,0,61.07q9.23-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.27,6,6.07,13,13.11,28.22,13.11q24.57,0,30.72-24.43Q82.95,61.07,70.66,58c-4.68-1.16-8-4.53-11.72-8.26-6-6.08-13-13.12-28.22-13.12Z"
@@ -310,7 +337,7 @@ const About5 = () => {
                     </svg>
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-[19px] flex justify-center items-center text-white font-semibold">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-white font-semibold p-1">
                     85%
                   </h2>
                 )}
@@ -321,12 +348,10 @@ const About5 = () => {
                 className="border border-[#F4511E] rounded-full  hover:bg-[#f4511e]"
               >
                 {!isGit ? (
-                  <div className="m-2">
+                  <div className="p-2">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 48 48"
-                      width={30}
-                      height={30}
+                      className="mobile:h-8 mobile:w-8 h-5 w-5"
                     >
                       <path
                         fill="#F4511E"
@@ -335,7 +360,7 @@ const About5 = () => {
                     </svg>
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-[19.2px] flex justify-center items-center text-white font-semibold">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-white font-semibold p-1">
                     60%
                   </h2>
                 )}
@@ -346,12 +371,10 @@ const About5 = () => {
                 className="border border-[#29b6f6] rounded-full hover:bg-[#29b6f6]"
               >
                 {!isVS ? (
-                  <div className="m-2">
+                  <div className="p-2">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 48 48"
-                      height={30}
-                      width={30}
+                      className="mobile:h-8 mobile:w-8 h-5 w-5"
                     >
                       <path
                         fill="#29b6f6"
@@ -368,7 +391,7 @@ const About5 = () => {
                     </svg>
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-[18.38px] flex justify-center items-center text-white font-semibold">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-white font-semibold p-1">
                     80%
                   </h2>
                 )}
@@ -379,8 +402,11 @@ const About5 = () => {
                 className="border border-[#FF6C37] rounded-full hover:bg-[#ff6c37]"
               >
                 {!isPost ? (
-                  <div className="m-2">
-                    <svg height={30} width={30} viewBox="0 0 256 256">
+                  <div className="p-2">
+                    <svg
+                      className="mobile:h-8 mobile:w-8 h-5 w-5"
+                      viewBox="0 0 256 256"
+                    >
                       <g>
                         <path
                           d="M254.953118,144.253071 C263.911504,74.1217108 214.38443,10.0052669 144.381048,1.04688158 C74.3776647,-7.9115038 10.0052669,41.6155696 1.04688158,111.618952 C-7.9115038,181.622335 41.6155696,245.866756 111.618952,254.953118 C181.750312,263.911504 245.866756,214.38443 254.953118,144.253071 Z"
@@ -472,7 +498,7 @@ const About5 = () => {
                     </svg>
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-[18px] flex justify-center items-center text-white font-semibold">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16.8px] flex justify-center items-center text-white font-semibold p-1">
                     75%
                   </h2>
                 )}

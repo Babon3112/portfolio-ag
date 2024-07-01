@@ -21,7 +21,7 @@ const Home4 = () => {
       }`}
     >
       <Link href={"/"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center h-full w-full mobile:w-56">
+        <div className="border border-gray-300 bg-white rounded-xl text-center h-full w-[21rem] mobile:w-56">
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/other.png"

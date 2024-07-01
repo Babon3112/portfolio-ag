@@ -19,7 +19,7 @@ const About2 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex justify-evenly items-center h-24 border border-gray-300 bg-white rounded-xl w-96 mobile:w-[40rem] tablet:w-80 mt-8">
+      <div className="flex justify-evenly items-center h-24 border border-gray-300 bg-white rounded-xl w-[21rem] mobile:w-[40rem] tablet:w-80 mt-8">
         <Link
           href="https://mail.google.com/mail/u/0/?fs=1&to=arnabg3112@gmail.com&tf=cm"
           target="_blank"

@@ -19,7 +19,7 @@ const Home1 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex border border-gray-300 rounded-2xl bg-white w-96 mobile:w-[30rem] h-[16rem] justify-center items-center mr-0 tablet:mr-5 mb-2 tablet:mb-0">
+      <div className="flex border border-gray-300 rounded-2xl bg-white w-[21rem] mobile:w-[30rem] h-[16rem] justify-center items-center mr-0 tablet:mr-5 mb-2 tablet:mb-0">
         <div className="ml-8 mr-4">
           <Image
             src="/Image.png"

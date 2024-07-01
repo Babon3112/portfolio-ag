@@ -21,7 +21,7 @@ const Home2 = () => {
       }`}
     >
       <Link href={"/about"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center mobile:w-56 ml-1 mt-2 mobile:mt-0">
+        <div className="border border-gray-300 bg-white rounded-xl text-center w-[21rem] mobile:w-56 ml-1 mt-2 mobile:mt-0">
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/aboutme.jpg"

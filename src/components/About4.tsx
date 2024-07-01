@@ -25,7 +25,7 @@ const About4 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 rounded-2xl bg-white p-4 mobile:pb-2">
+      <div className="border border-gray-300 rounded-2xl bg-white p-4 mobile:pb-2 w-[21rem] mobile:w-[40rem]">
         <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500">
           | EDUCATION |
         </h1>

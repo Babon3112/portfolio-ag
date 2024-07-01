@@ -15,7 +15,7 @@ const AboutPage = () => {
           <About2 />
           <About3 />
         </div>
-        <div className="tablet:ml-10 mt-8 tablet:mt-0 w-96 mobile:w-[40rem]">
+        <div className="tablet:ml-10 mt-8 tablet:mt-0 w-[21rem] mobile:w-[40rem]">
           <About4 />
           <About5 />
           <About6 />

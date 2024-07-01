@@ -29,7 +29,7 @@ const Home8 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex flex-col w-96 border border-gray-300 rounded-2xl tablet:m-0 mt-10">
+      <div className="flex flex-col w-[21rem] border border-gray-300 rounded-2xl tablet:m-0 mt-10">
         <div className="flex justify-center mb-3">
           <Image src="/cv.png" width={175} height={175} alt="" />
         </div>

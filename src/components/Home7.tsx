@@ -21,7 +21,7 @@ const Home7 = () => {
       }`}
     >
       <Link href={"/about"}>
-        <div className="flex flex-col w-96 border border-gray-300 rounded-2xl">
+        <div className="flex flex-col w-[21rem] border border-gray-300 rounded-2xl">
           <div className="flex justify-center">
             <Image
               src="/education.png"
