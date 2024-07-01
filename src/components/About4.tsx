@@ -14,7 +14,7 @@ const About4 = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowComponent(true);
-    }, 1000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -31,7 +31,7 @@ const About4 = () => {
         </h1>
         <div className="mobile:mx-4">
           <div className="flex justify-between mt-4">
-            <h2 className="font-semibold flex">
+            <h2 className="font-medium flex">
               <GraduationCap className="mr-1.5 text-gray-600" />
               JIS University
             </h2>
@@ -47,7 +47,7 @@ const About4 = () => {
         </div>
         <div className="mobile:mx-4">
           <div className="flex justify-between mt-4">
-            <h2 className="font-semibold flex">
+            <h2 className="font-medium flex">
               <GraduationCap className="mr-1.5 text-gray-600" />
               Dhamsa P. C. Sen Institution
             </h2>

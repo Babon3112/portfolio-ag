@@ -22,7 +22,7 @@ const About1 = () => {
       <div className="border border-gray-300 rounded-2xl bg-white w-96 mobile:w-[40rem] tablet:w-80">
         <div className="flex justify-center mt-8">
           <Image
-            src="/Image.png"
+            src="/Image2.jpg"
             alt="_blank"
             width={250}
             height={250}

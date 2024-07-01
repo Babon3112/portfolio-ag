@@ -25,7 +25,7 @@ const Home5 = () => {
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/skills.png"
-              width={140}
+              width={135}
               height={140}
               alt=""
               className="my-2"

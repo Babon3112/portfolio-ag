@@ -20,31 +20,75 @@ const Home6 = () => {
       }`}
     >
       <div className="border border-gray-300 bg-white rounded-xl mt-10 tablet:mt-0 mobile:mt-7">
-        <div className="flex mobile:w-[30rem] justify-evenly items-center border-b border-gray-300 h-[9.5rem]">
+        <div className="flex mobile:w-[30rem] justify-evenly items-center border-b border-gray-300 h-[9.1rem]">
           <Link
+            href="https://mail.google.com/mail/u/0/?fs=1&to=arnabg3112@gmail.com&tf=cm"
+            target="_blank"
+            className="group border border-t-[#c62828] border-l-[#1e88e5] border-b-[#4caf50] border-r-[#fbc02d] rounded-full bg-white transition-all duration-200"
+          >
+            <div className="relative w-11 h-11">
+              <div className="absolute inset-0 flex flex-wrap rotate-45 opacity-0 group-hover:opacity-100 transition-all duration-200">
+                <div className="w-1/2 h-1/2 rounded-tl-full bg-[#c62828]"></div>
+                <div className="w-1/2 h-1/2 rounded-tr-full bg-[#fbc02d]"></div>
+                <div className="w-1/2 h-1/2 rounded-bl-full bg-[#1e88e5]"></div>
+                <div className="w-1/2 h-1/2 rounded-br-full bg-[#4caf50]"></div>
+              </div>
+
+              <svg
+                className="p-3 relative"
+                width={45}
+                height={45}
+                viewBox="0 0 48 48"
+              >
+                <path
+                  className="fill-[#4285F4] group-hover:fill-white"
+                  d="M3.27273 42.0088H10.9091V23.4633L0 15.2815V38.736C0 40.5442 1.46455 42.0088 3.27273 42.0088Z"
+                ></path>
+                <path
+                  className="fill-[#34A853] group-hover:fill-white"
+                  d="M37.0909 42.0088H44.7273C46.5355 42.0088 48 40.5442 48 38.736V15.2815L37.0909 23.4633V42.0088Z"
+                ></path>
+                <path
+                  className="fill-[#FBBC04] group-hover:fill-white"
+                  d="M37.0909 9.28155V23.4634L48 15.2815V10.9179C48 6.87336 43.3827 4.56336 40.1455 6.99064L37.0909 9.28155Z"
+                ></path>
+                <path
+                  className="fill-[#EA4335] group-hover:fill-white"
+                  fill-rule="evenodd"
+                  d="M10.9091 23.4633V9.28149L24 19.0997L37.0909 9.28149V23.4633L24 33.2815L10.9091 23.4633Z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  className="fill-[#C5221F] group-hover:fill-white"
+                  d="M0 10.9179V15.2815L10.9091 23.4634V9.28155L7.85455 6.99064C4.61727 4.56336 0 6.87336 0 10.9179Z"
+                ></path>
+              </svg>
+            </div>
+          </Link>
+          {/* <Link
             href="https://github.com/babon3112/"
             target="_blank"
-            className="border border-[#2b3137] rounded-full bg-white hover:bg-[#2b3137] transition-colors duration-200"
+            className="border border-[#2b3137] rounded-full bg-white hover:bg-[#2b3137] transition-all duration-200"
           >
             <svg
               className="p-3 hover:fill-white fill-[#2b3137]"
-              height={50}
-              xmlns="http://www.w3.org/2000/svg"
+              height={45}
+              width={45}
               viewBox="-2.5 0 19 19"
             >
               <path d="M9.464 17.178a4.506 4.506 0 0 1-2.013.317 4.29 4.29 0 0 1-2.007-.317.746.746 0 0 1-.277-.587c0-.22-.008-.798-.012-1.567-2.564.557-3.105-1.236-3.105-1.236a2.44 2.44 0 0 0-1.024-1.348c-.836-.572.063-.56.063-.56a1.937 1.937 0 0 1 1.412.95 1.962 1.962 0 0 0 2.682.765 1.971 1.971 0 0 1 .586-1.233c-2.046-.232-4.198-1.023-4.198-4.554a3.566 3.566 0 0 1 .948-2.474 3.313 3.313 0 0 1 .091-2.438s.773-.248 2.534.945a8.727 8.727 0 0 1 4.615 0c1.76-1.193 2.532-.945 2.532-.945a3.31 3.31 0 0 1 .092 2.438 3.562 3.562 0 0 1 .947 2.474c0 3.54-2.155 4.32-4.208 4.548a2.195 2.195 0 0 1 .625 1.706c0 1.232-.011 2.227-.011 2.529a.694.694 0 0 1-.272.587z"></path>
             </svg>
-          </Link>
+          </Link> */}
           <Link
             href="https://www.linkedin.com/in/babon3112"
             target="_blank"
-            className="border border-[#0077B5] rounded-full bg-white hover:bg-[#0077B5] transition-colors duration-200"
+            className="border border-[#0077B5] rounded-full bg-white hover:bg-[#0077B5] transition-all duration-200"
           >
             <svg
               viewBox="0 -2 44 44"
-              className="p-3.5 fill-[#0077B5] hover:fill-white"
-              height={50}
-              xmlns="http://www.w3.org/2000/svg"
+              className="p-3 fill-[#0077B5] hover:fill-white"
+              height={45}
+              width={45}
             >
               <g transform="translate(-702.000000, -265.000000)">
                 <path
@@ -57,11 +101,11 @@ const Home6 = () => {
           <Link
             href="https://discord.com/invite/syEmGjNR"
             target="_blank"
-            className="border border-[#5865f2] rounded-full bg-white hover:bg-[#5865f2] transition-colors duration-200"
+            className="border border-[#5865f2] rounded-full bg-white hover:bg-[#5865f2] transition-all duration-200"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height={50}
+              height={45}
+              width={45}
               className="p-3 fill-[#5865f2] hover:fill-white"
               viewBox="0 0 16 16"
             >
@@ -71,13 +115,13 @@ const Home6 = () => {
           <Link
             href="https://t.me/Babon3112"
             target="_blank"
-            className="border border-[#24a1de] rounded-full bg-white hover:bg-[#24a1de] transition-colors duration-200"
+            className="border border-[#24a1de] rounded-full bg-white hover:bg-[#24a1de] transition-all duration-200"
           >
             <svg
-              className="p-3.5 hover:fill-white fill-[#24a1de]"
-              xmlns="http://www.w3.org/2000/svg"
+              className="p-3 hover:fill-white fill-[#24a1de]"
               viewBox="0 0 300 300"
-              height={50}
+              height={45}
+              width={45}
             >
               <g id="XMLID_496_">
                 <path
@@ -92,18 +136,62 @@ const Home6 = () => {
             </svg>
           </Link>
           <Link
-            href="https://api.whatsapp.com/send/?phone=917477421817"
+            href="https://api.whatsapp.com/send/?phone=916295400897"
             target="_blank"
-            className="border border-[#25d366] rounded-full bg-white hover:bg-[#25d366] transition-colors duration-200"
+            className="border border-[#25d366] rounded-full bg-white hover:bg-[#25d366] transition-all duration-200"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height={50}
-              className="p-3.5 hover:fill-white fill-[#25d366]"
+              height={45}
+              width={45}
+              className="p-3 hover:fill-white fill-[#25d366]"
               viewBox="0 0 16 16"
             >
               <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
             </svg>
+          </Link>
+          <Link
+            href="https://mail.google.com/mail/u/0/?fs=1&to=arnabbabon2002@gmail.com&tf=cm"
+            target="_blank"
+            className="group border border-t-[#c62828] border-l-[#1e88e5] border-b-[#4caf50] border-r-[#fbc02d] rounded-full bg-white transition-all duration-200"
+          >
+            <div className="relative w-11 h-11">
+              <div className="absolute inset-0 flex flex-wrap rotate-45 opacity-0 group-hover:opacity-100 transition-all duration-200">
+                <div className="w-1/2 h-1/2 rounded-tl-full bg-[#c62828]"></div>
+                <div className="w-1/2 h-1/2 rounded-tr-full bg-[#fbc02d]"></div>
+                <div className="w-1/2 h-1/2 rounded-bl-full bg-[#1e88e5]"></div>
+                <div className="w-1/2 h-1/2 rounded-br-full bg-[#4caf50]"></div>
+              </div>
+
+              <svg
+                className="p-3 relative"
+                width={45}
+                height={45}
+                viewBox="0 0 48 48"
+              >
+                <path
+                  className="fill-[#4285F4] group-hover:fill-white"
+                  d="M3.27273 42.0088H10.9091V23.4633L0 15.2815V38.736C0 40.5442 1.46455 42.0088 3.27273 42.0088Z"
+                ></path>
+                <path
+                  className="fill-[#34A853] group-hover:fill-white"
+                  d="M37.0909 42.0088H44.7273C46.5355 42.0088 48 40.5442 48 38.736V15.2815L37.0909 23.4633V42.0088Z"
+                ></path>
+                <path
+                  className="fill-[#FBBC04] group-hover:fill-white"
+                  d="M37.0909 9.28155V23.4634L48 15.2815V10.9179C48 6.87336 43.3827 4.56336 40.1455 6.99064L37.0909 9.28155Z"
+                ></path>
+                <path
+                  className="fill-[#EA4335] group-hover:fill-white"
+                  fill-rule="evenodd"
+                  d="M10.9091 23.4633V9.28149L24 19.0997L37.0909 9.28149V23.4633L24 33.2815L10.9091 23.4633Z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  className="fill-[#C5221F] group-hover:fill-white"
+                  d="M0 10.9179V15.2815L10.9091 23.4634V9.28155L7.85455 6.99064C4.61727 4.56336 0 6.87336 0 10.9179Z"
+                ></path>
+              </svg>
+            </div>
           </Link>
         </div>
         <div className="flex flex-col items-center my-2">

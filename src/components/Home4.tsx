@@ -25,7 +25,7 @@ const Home4 = () => {
           <div className="border-b border-gray-300 flex justify-center">
             <Image
               src="/other.png"
-              width={200}
+              width={190}
               height={200}
               alt=""
               className="my-2"
