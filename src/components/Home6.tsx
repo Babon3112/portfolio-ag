@@ -19,7 +19,7 @@ const Home6 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 bg-white rounded-xl mt-10 tablet:mt-0 mobile:mt-7">
+      <div className="border border-gray-300 bg-white rounded-xl mt-20 tablet:mt-0 mobile:mt-7">
         <div className="flex mobile:w-[30rem] justify-evenly items-center border-b border-gray-300 h-[9.1rem]">
           <Link
             href="https://mail.google.com/mail/u/0/?fs=1&to=arnabg3112@gmail.com&tf=cm"
