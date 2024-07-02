@@ -133,12 +133,6 @@
     }
   }
 
-  .rating input:checked~label,
-  .rating label:hover,
-  .rating label:hover~label {
-    color: #FF9954;
-  }
-
   .mySwiper:hover .swiper-button-prev {
     opacity: 100%;
   }
@@ -155,7 +149,6 @@
   }
 
   .swiper-button-prev {
-
     color: rgb(169, 169, 169);
     left: 20px;
     opacity: 0%;
