@@ -1,9 +1,40 @@
 "use client";
-import { Send } from "lucide-react";
+import axios from "axios";
+import { Loader, Send } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 const Contact1 = () => {
   const [showComponent, setShowComponent] = useState(false);
+  const [name, setName] = useState("");
+  const [mobileNo, setMobileNo] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const { toast } = useToast();
+
+  const sendMessage = async (e: any) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      await axios.post("/api/sendMessage", {
+        name,
+        mobileNo,
+        email,
+        message,
+      });
+      toast({ title: "Message sent successfully", variant:"default" });
+      setLoading(false);
+      setName("");
+      setMobileNo("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      setLoading(false);
+      toast({ title: "Failed to send message", variant: "destructive" });
+    }
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,47 +54,71 @@ const Contact1 = () => {
         <h1 className="text-2xl font-semibold text-center text-gray-600">
           GET IN TOUCH
         </h1>
-        <form className="flex flex-col mx-6 mt-6 space-y-8 justify-center items-center">
+        <form
+          className="flex flex-col mx-6 mt-6 space-y-8 justify-center items-center"
+          onSubmit={sendMessage}
+        >
           <input
             className="w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
             type="text"
-            name=""
+            name="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             placeholder="Enter Your Name"
             required
           />
           <input
             className="remove-arrow w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
             type="number"
-            name=""
+            name="mobile"
+            value={mobileNo}
+            onChange={(e) => setMobileNo(e.target.value)}
             placeholder="Enter Your Mobile No."
             required
           />
           <input
             className="w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
             type="email"
-            name=""
+            name="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter Your Email"
             required
           />
           <textarea
             className="w-full p-2 h-32 border rounded-2xl focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-500 placeholder:font-normal"
-            name=""
+            name="message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             placeholder="Share Your Feedback..."
             required
           />
           <button
             className="group contactButton border rounded-2xl w-32 h-16 text-lg overflow-hidden flex justify-center items-center"
             type="submit"
+            disabled={loading}
           >
-            <Send
-              fill="black"
-              className="sendButton mr-2 size-8 transition-all duration-300 group-hover:fill-[#FF9954] group-hover:rotate-45 group-hover:translate-x-6 group-hover:scale-110"
-              color="white"
-              strokeWidth={0.5}
-            />
-            <p className="transition-all duration-300 group-hover:translate-x-20">
-              Send
-            </p>
+            {loading ? (
+              <>
+                <Loader
+                  color="#ff9954"
+                  className="animate-spin size-8"
+                  strokeWidth={3}
+                />
+              </>
+            ) : (
+              <>
+                <Send
+                  fill="black"
+                  className="sendButton mr-2 size-8 transition-all duration-300 group-hover:fill-[#FF9954] group-hover:rotate-45 group-hover:translate-x-6 group-hover:scale-110"
+                  color="white"
+                  strokeWidth={0.5}
+                />
+                <p className="transition-all duration-300 group-hover:translate-x-20">
+                  Send
+                </p>
+              </>
+            )}
           </button>
         </form>
       </div>

@@ -19,7 +19,7 @@ const Work8 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="tablet:mr-8 mobile:ml-0 max-mobile:mt-8 flex flex-col justify-center items-center">
+      <div className="tablet:mr-8 mobile:ml-8 tablet:ml-0 max-mobile:mt-8 flex flex-col justify-center items-center">
         <Link href="https://github.com/Babon3112/EazyBuy" target="_blank">
           <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
             <div className="w-full overflow-hidden">
