@@ -3,10 +3,12 @@ import axios from "axios";
 import { Loader, Send } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
+import countryCodes from "@/CountryCodes.json";
 
 const Contact1 = () => {
   const [showComponent, setShowComponent] = useState(false);
   const [name, setName] = useState("");
+  const [countryCode, setCountryCode] = useState("+91");
   const [mobileNo, setMobileNo] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -18,15 +20,17 @@ const Contact1 = () => {
     e.preventDefault();
     try {
       setLoading(true);
+      const fullMobileNo = `${countryCode}${mobileNo}`;
       await axios.post("/api/sendMessage", {
         name,
-        mobileNo,
+        mobileNo: fullMobileNo,
         email,
         message,
       });
-      toast({ title: "Message sent successfully", variant:"default" });
+      toast({ title: "Message sent successfully", variant: "default" });
       setLoading(false);
       setName("");
+      setCountryCode("+91");
       setMobileNo("");
       setEmail("");
       setMessage("");
@@ -67,15 +71,34 @@ const Contact1 = () => {
             placeholder="Enter Your Name"
             required
           />
-          <input
-            className="remove-arrow w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
-            type="number"
-            name="mobile"
-            value={mobileNo}
-            onChange={(e) => setMobileNo(e.target.value)}
-            placeholder="Enter Your Mobile No."
-            required
-          />
+          <div className="flex w-full">
+            <select
+              className="appearance-none pb-2 border-b border-gray-300 focus:outline-none focus:border-blue-500 cursor-pointer"
+              value={countryCode}
+              onChange={(e) => setCountryCode(e.target.value)}
+              required
+            >
+              {countryCodes.map((country) => (
+                <option
+                  key={country.code}
+                  value={country.dial_code}
+                  className="py-2 px-4 hover:bg-blue-100"
+                >
+                  {country.code} ({country.dial_code})
+                </option>
+              ))}
+            </select>
+
+            <input
+              className="remove-arrow w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
+              type="number"
+              name="mobile"
+              value={mobileNo}
+              onChange={(e) => setMobileNo(e.target.value)}
+              placeholder="Enter Your Mobile No."
+              required
+            />
+          </div>
           <input
             className="w-full pb-2 border-b focus:outline-none placeholder:tracking-wider placeholder:hover:tracking-widerer placeholder:transition-all placeholder:duration-300 placeholder:font-normal"
             type="email"
