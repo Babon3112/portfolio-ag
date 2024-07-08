@@ -1,13 +1,13 @@
 "use client";
-import Work1 from "@/components/Work1";
-import Work2 from "@/components/Work2";
-import Work3 from "@/components/Work3";
-import Work4 from "@/components/Work4";
-import Work5 from "@/components/Work5";
-import Work6 from "@/components/Work6";
-import Work7 from "@/components/Work7";
-import Work8 from "@/components/Work8";
-import Work9 from "@/components/Work9";
+import Work1 from "@/components/Projects/Work1";
+import Work2 from "@/components/Projects/Work2";
+import Work3 from "@/components/Projects/Work3";
+import Work4 from "@/components/Projects/Work4";
+import Work5 from "@/components/Projects/Work5";
+import Work6 from "@/components/Projects/Work6";
+import Work7 from "@/components/Projects/Work7";
+import Work8 from "@/components/Projects/Work8";
+import Work9 from "@/components/Projects/Work9";
 import { ArrowDown, ArrowUp } from "lucide-react";
 import { useEffect, useState } from "react";
 

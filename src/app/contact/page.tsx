@@ -1,7 +1,7 @@
-import About2 from "@/components/About2";
-import Contact1 from "@/components/Contact1";
-import Contact2 from "@/components/Contact2";
-import Contact3 from "@/components/Contact3";
+import About2 from "@/components/About/About2";
+import Contact1 from "@/components/Contact/Contact1";
+import Contact2 from "@/components/Contact/Contact2";
+import Contact3 from "@/components/Contact/Contact3";
 
 const contactpage = () => {
   return (

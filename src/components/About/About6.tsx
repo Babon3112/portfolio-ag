@@ -70,7 +70,7 @@ const About6 = () => {
                     alt={certificate.name}
                     width={200}
                     height={200}
-                    // objectFit="cover"
+                    objectFit="cover"
                   />
                   <h3 className="text-sm tracking-wider m-6 text-gray-500">
                     {certificate.name}

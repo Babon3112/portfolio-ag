@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Bad, GitHub, Happy, Love, Neutral, Smile, Wow } from "./svgs";
+import { Bad, GitHub, Happy, Love, Neutral, Smile, Wow } from "../svgs";
 import axios from "axios";
 import { useDebounceValue } from "usehooks-ts";
 

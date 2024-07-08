@@ -14,7 +14,7 @@ const menuItems = [
   },
   {
     name: "Projects",
-    href: "/works",
+    href: "/projects",
   },
   {
     name: "Contact",
@@ -41,7 +41,7 @@ const Navbar = () => {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="font-semibold text-gray-700 hover:text-gray-800"
+                  className="font-semibold text-gray-600 hover:text-gray-900 transition-all duration-100"
                 >
                   {item.name}
                 </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
             href={"https://www.linkedin.com/in/babon3112/"}
             target="_blank"
             type="button"
-            className="bg-white text-gray-700 px-4 py-3 shadow-sm rounded-full border border-gray-300 hover:shadow-lg hover:transition-all text-lg hover:bg-gray-50 hover:text-gray-900"
+            className="bg-white text-gray-700 px-4 py-3 shadow-sm rounded-full border border-gray-300 hover:shadow-lg hover:transition-all text-lg hover:text-gray-900 duration-100 ease-in-out"
           >
             Know More!
           </Link>
@@ -71,37 +71,18 @@ const Navbar = () => {
           )}
         </div>
         {isMenuOpen && (
-          <div className="absolute inset-x-0 top-20 z-50 origin-top-right transform backdrop-blur-lg p-2 transition laptop:hidden w-full">
-            <div className="divide-y-2 divide-gray-50 rounded-lg bg-transparent">
-              <div className="px-5 pb-6 pt-5 flex justify-center">
-                <div className="flex items-center justify-between">
-                  <div className="inline-flex items-center space-x-2">
-                    <span>
-                      <svg
-                        width="30"
-                        height="30"
-                        viewBox="0 0 50 56"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      ></svg>
-                    </span>
-                  </div>
-                </div>
-                <div className="">
-                  <nav className="grid gap-y-10">
-                    {menuItems.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="-m-3 flex items-center rounded-md p-3 text-xl"
-                      >
-                        <span className=" text-black">{item.name}</span>
-                      </a>
-                    ))}
-                  </nav>
-                </div>
-              </div>
-            </div>
+          <div className="absolute inset-x-0 top-20 z-50 origin-top-right transform backdrop-blur-lg p-8 transition laptop:hidden w-full flex justify-center">
+            <nav className="grid gap-y-8">
+              {menuItems.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="-m-3 flex items-center rounded-md p-3 text-xl"
+                >
+                  <span className=" text-black">{item.name}</span>
+                </a>
+              ))}
+            </nav>
           </div>
         )}
       </div>
