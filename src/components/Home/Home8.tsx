@@ -16,7 +16,7 @@ const Home8 = () => {
 
   const downloadResume = useCallback(() => {
     const link = document.createElement("a");
-    link.href = "ArnabGhoshResume.pdf";
+    link.href = "Arnab Ghosh Resume.pdf";
     link.download = "Arnab Ghosh Resume.pdf";
     document.body.appendChild(link);
     link.click();
