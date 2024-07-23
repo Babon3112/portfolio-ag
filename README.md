@@ -25,7 +25,7 @@ This portfolio website serves as a personal showcase for my work and skills in w
 - Resume: A downloadable PDF version of my resume.
 - Contact: A form to get in touch with me.
 - Responsive Design: The website is fully responsive and works on all devices.
--
+- Theme settings: A button for switching between dark and light theme.
 
 ## Technologies Used
 
