@@ -21,7 +21,7 @@ const Home7 = () => {
       }`}
     >
       <Link href={"/about"}>
-        <div className="flex flex-col w-[21rem] border border-gray-300 rounded-2xl">
+        <div className="flex flex-col w-[23rem] border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-2xl h-52">
           <div className="flex justify-center">
             <Image
               src="/education.png"
@@ -31,11 +31,13 @@ const Home7 = () => {
               className="mt-2"
             />
           </div>
-          <div className="w-full border-t border-gray-300 my-2">
-            <p className="text-gray-500 text-xs font-semibold text-center mt-2">
+          <div className="w-full border-t border-gray-300 dark:border-gray-700 my-2">
+            <p className="text-gray-600 dark:text-gray-400 text-xs font-semibold text-center mt-2">
               ABOUT MY EDUCATION
             </p>
-            <h1 className="text-xl font-bold text-center">Academics</h1>
+            <h1 className="text-xl font-bold text-center text-gray-900 dark:text-gray-100">
+              Academics
+            </h1>
           </div>
         </div>
       </Link>

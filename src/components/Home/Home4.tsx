@@ -21,8 +21,8 @@ const Home4 = () => {
       }`}
     >
       <Link href={"/"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center h-full w-[21rem] mobile:w-56">
-          <div className="border-b border-gray-300 flex justify-center">
+        <div className="border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-xl text-center h-52 w-[23rem] mobile:w-56">
+          <div className="border-b border-gray-300 dark:border-gray-700 flex justify-center">
             <Image
               src="/other.png"
               width={190}
@@ -32,10 +32,12 @@ const Home4 = () => {
             />
           </div>
           <div className="my-2">
-            <p className="text-gray-500 text-xs font-semibold mb-1">
+            <p className="text-gray-600 dark:text-gray-400 text-xs font-semibold">
               WORKS I USED TO DO
             </p>
-            <h1 className="text-xl font-bold mt-1">Other Works</h1>
+            <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+              Other Works
+            </h1>
           </div>
         </div>
       </Link>

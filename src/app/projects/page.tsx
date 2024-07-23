@@ -26,8 +26,9 @@ const WorksPage = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
-    <div className="flex bg-[#f7f7f7]">
+    <div className="flex bg-[#f7f7f7] dark:bg-gray-950">
       <div className="mx-auto flex justify-center items-center flex-col m-20 max-w-5xl">
         <div className="flex max-mobile:flex-col items-center justify-center">
           <Work1 />
@@ -48,7 +49,7 @@ const WorksPage = () => {
           <Work6 />
         </div>
         <div
-          className={`border border-gray-300 bg-white rounded-full p-3 pt-4 pb-2 m-6 transition-all duration-1000 ease-in ${
+          className={`border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-full p-3 pt-4 pb-2 m-6 transition-all duration-1000 ease-in ${
             showComponent ? "opacity-100" : "opacity-0"
           }`}
         >

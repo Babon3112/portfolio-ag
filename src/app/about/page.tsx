@@ -8,7 +8,7 @@ import About6 from "@/components/About/About6";
 
 const AboutPage = () => {
   return (
-    <div className="flex bg-[#f7f7f7] justify-center">
+    <div className="flex bg-gray-200 dark:bg-gray-950 justify-center">
       <div className="mx-auto flex justify-center mobile:justify-center flex-col tablet:flex-row m-20">
         <div className="flex flex-col items-center">
           <About1 />

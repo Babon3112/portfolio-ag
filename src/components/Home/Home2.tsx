@@ -21,10 +21,10 @@ const Home2 = () => {
       }`}
     >
       <Link href={"/about"}>
-        <div className="border border-gray-300 bg-white rounded-xl text-center w-[21rem] mobile:w-56 ml-1 mt-2 mobile:mt-0">
-          <div className="border-b border-gray-300 flex justify-center">
+        <div className="border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-xl text-center w-[23rem] mobile:w-56 ml-1 mt-2 mobile:mt-0">
+          <div className="border-b border-gray-300 dark:border-gray-700 flex justify-center">
             <Image
-              src="/aboutme.jpg"
+              src="/aboutme.png"
               width={105}
               height={105}
               alt=""
@@ -32,10 +32,12 @@ const Home2 = () => {
             />
           </div>
           <div className="my-2">
-            <p className="text-gray-500 text-xs font-semibold mb-1">
+            <p className="text-gray-600 dark:text-gray-400 text-xs font-semibold mb-1">
               MORE ABOUT ME
             </p>
-            <h1 className="text-xl font-bold mt-1">Credentials</h1>
+            <h1 className="text-xl font-bold mt-1 text-gray-900 dark:text-gray-100">
+              Credentials
+            </h1>
           </div>
         </div>
       </Link>

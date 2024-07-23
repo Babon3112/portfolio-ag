@@ -66,18 +66,30 @@
   }
 }
 
+:root {
+  --primary: #f7f7f7;
+  --secondary: #030712;
+}
+
 @layer base {
   * {
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
 
-    --swiper-navigation-color: #888888;
-    --swiper-pagination-color: #888888;
-    --swiper-navigation-sides-offset: 10px;
-    --swiper-navigation-top-offset: 35%;
+  *::-webkit-scrollbar-track {
+    background: var(--primary);
+    /* border-radius: 10px; */
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    /* border-radius: 10px; */
+    border: 1px solid var(--primary);
   }
 
   @font-face {

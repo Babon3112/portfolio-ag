@@ -18,7 +18,7 @@ const HomeText = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="mt-5 tablet:mt-0 text-gray-950 w-[21rem] mobile:w-[30rem] h-10 overflow-hidden border border-gray-300 rounded-full flex items-center justify-center relative bg-white p-2">
+      <div className="mt-5 tablet:mt-0 text-gray-900 dark:text-gray-100 w-[23rem] mobile:w-[30rem] h-10 overflow-hidden border border-gray-300 dark:border-gray-700 rounded-full flex items-center justify-center relative bg-gray-50 dark:bg-gray-800 p-2">
         <div className="marquee">
           <p>
             Welcome to the Official portfolio of Arnab Ghosh, This platform is

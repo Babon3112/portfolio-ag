@@ -19,11 +19,13 @@ This portfolio website serves as a personal showcase for my work and skills in w
 ## Features
 
 - Home: An introduction to who I am and what I do.
-- Projects: A detailed list of projects with descriptions, technologies used, and links to live demos or repositories.
+- About: An overview of my education and skills.
+- Projects: A list of projects with images, and deployed links to live demos or repositories.
 - Skills: A comprehensive list of my technical skills.
 - Resume: A downloadable PDF version of my resume.
 - Contact: A form to get in touch with me.
 - Responsive Design: The website is fully responsive and works on all devices.
+-
 
 ## Technologies Used
 
@@ -37,15 +39,17 @@ This portfolio website serves as a personal showcase for my work and skills in w
 ## Usage
 
 - Homepage: Contains a brief introduction and navigation links.
-- Projects Page: Displays all my projects with details and links to live demos or GitHub repositories.
-- Skills Page: Lists all the technologies I am proficient in.
-- Resume Page: Allows users to download my resume.
+- About: Contains a short description, my education and my skills.
+- Projects Page: Displays all my projects with images and deployed links to live demos or GitHub repositories.
 - Contact Page: Provides a form to send me a message directly.
 
 ## Screenshots
 
 ![Home Page](./public/portfolio.png)
 _Home Page_
+
+![About Page](./public/about.png)
+_About Page_
 
 ![Projects Page](./public/project.png)
 _Projects Page_

@@ -25,20 +25,20 @@ const About4 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 rounded-2xl bg-white p-4 mobile:pb-2 w-[21rem] mobile:w-[40rem]">
-        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500">
+      <div className="border border-gray-300 rounded-2xl bg-gray-50 p-4 mobile:pb-2 w-[23rem] mobile:w-[40rem] dark:border-gray-700 dark:bg-gray-800">
+        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500 dark:text-gray-50">
           | EDUCATION |
         </h1>
         <div className="mobile:mx-4">
           <div className="flex justify-between mt-4">
-            <h2 className="font-medium flex">
-              <GraduationCap className="mr-1.5 text-gray-600" />
+            <h2 className="font-medium flex dark:text-gray-300">
+              <GraduationCap className="mr-1.5 text-gray-600 dark:text-gray-400" />
               JIS University
             </h2>
             <p className="text-gray-500 font-medium">2020 - 2024</p>
           </div>
           {eucationShow && (
-            <div className="text-gray-600 mt-4 ml-6 space-y-3 text-sm">
+            <div className="text-gray-600 mt-4 ml-6 space-y-3 text-sm dark:text-gray-400">
               <p>Computer Science Engineering - B.Tech</p>
               <Progress value={77.8} className="w-[65%]" />
               <p>CGPA: 8.28</p>
@@ -47,14 +47,14 @@ const About4 = () => {
         </div>
         <div className="mobile:mx-4">
           <div className="flex justify-between mt-4">
-            <h2 className="font-medium flex">
-              <GraduationCap className="mr-1.5 text-gray-600" />
+            <h2 className="font-medium flex dark:text-gray-300">
+              <GraduationCap className="mr-1.5 text-gray-600 dark:text-gray-400" />
               Dhamsa P. C. Sen Institution
             </h2>
             <p className="text-gray-500 font-medium">2012 - 2020</p>
           </div>
           {eucationShow && (
-            <div className="text-gray-600 mt-4 ml-6 space-y-3 text-sm">
+            <div className="text-gray-600 mt-4 ml-6 space-y-3 text-sm dark:text-gray-400">
               <p>High School - Science</p>
               <Progress value={80} className="w-[65%]" />
               <p>Marks: 83.57%</p>
@@ -64,7 +64,7 @@ const About4 = () => {
             </div>
           )}
         </div>
-        <div className="w-full flex justify-center mt-4">
+        <div className="w-full flex justify-center mt-4 dark:text-gray-400 text-gray-900">
           {eucationShow ? (
             <ChevronUp
               className="cursor-pointer animate-bounce"

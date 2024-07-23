@@ -23,40 +23,40 @@ const Work2 = () => {
     >
       <div className="tablet:mr-8 mobile:ml-8 max-mobile:mt-8 flex flex-col justify-center items-center">
         <Link href="https://music-school-beige.vercel.app/" target="_blank">
-          <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
+          <div className="bg-gray-50 dark:bg-gray-800 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
             <div className="w-full overflow-hidden">
               <Image
                 src="/musicacademy.png"
                 alt=""
-                width={335}
-                height={335}
-                className="rounded-tr-2xl rounded-tl-2xl h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
+                width={370}
+                height={370}
+                className="h-[9.5rem] transform transition-all duration-300 hover:scale-110"
               />
             </div>
             <p className="mt-1 font-medium text-sm text-gray-500">
               NextJS UI Design
             </p>
-            <h1 className="flex mb-1 font-bold">
+            <h1 className="flex mb-1 font-bold text-gray-800 dark:text-gray-200">
               Music Academy
               <GitHub />
             </h1>
           </div>
         </Link>
         <Link href="https://shadowconnect.vercel.app/" target="_blank">
-          <div className="bg-white mt-8 w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
+          <div className="bg-gray-50 dark:bg-gray-800 mt-8 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
             <div className="w-full overflow-hidden">
               <Image
-                width={335}
-                height={335}
+                width={370}
+                height={370}
                 alt=""
                 src="/shadowconnect.png"
-                className="rounded-tr-2xl rounded-tl-2xl h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
+                className="h-[9.5rem] transform transition-all duration-300 hover:scale-110"
               />
             </div>
             <p className="mt-1 font-medium text-sm text-gray-500">
-              Anonymous Feedback Website
+              Take Anonymous Feedback
             </p>
-            <h1 className="flex mb-1 font-bold">
+            <h1 className="flex mb-1 font-bold text-gray-900 dark:text-gray-300">
               SHADOWCONNECT
               <GitHub />
             </h1>

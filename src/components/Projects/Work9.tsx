@@ -69,27 +69,29 @@ const Work9 = () => {
     >
       <div className="mobile:mt-0 mt-6">
         <Link href="https://github.com/Babon3112/portfolio-ag" target="_blank">
-          <div className="bg-white w-[21rem] rounded-2xl flex flex-col items-center border border-gray-300 overflow-hidden">
+          <div className="bg-gray-50 dark:bg-gray-800 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
             <div className="w-full h-[15.5rem] overflow-hidden">
               <Image
-                width={335}
-                height={335}
+                width={370}
+                height={370}
                 alt="Portfolio"
                 src="/portfolio.png"
-                className="rounded-tr-2xl rounded-tl-2xl h-full object-cover transform transition-all duration-300 hover:scale-110"
+                className="h-full transform transition-all duration-300 hover:scale-110 object-cover"
               />
             </div>
             <p className="mt-2 mb-2 font-medium text-sm text-gray-500">
               Portfolio Design
             </p>
-            <h1 className="flex mb-2 font-bold">
-              Arnab&apos;s Portfolio
+            <h1 className="flex mb-2 font-bold text-gray-800 dark:text-gray-200">
+              MY PORTFOLIO
               <GitHub />
             </h1>
           </div>
         </Link>
-        <div className="bg-white border border-gray-300 w-[21rem] h-[5.8rem] mt-8 rounded-2xl">
-          <p className="text-center mb-1">-rate my projects-</p>
+        <div className="bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 w-[23rem] h-[5.8rem] mt-8 rounded-2xl">
+          <p className="text-center mb-1 text-gray-900 dark:text-gray-300">
+            -rate my projects-
+          </p>
           <div className="flex justify-center items-center">
             <div className="rating flex flex-row-reverse justify-center ml-16">
               {[5, 4, 3, 2, 1].map((value) => (
@@ -108,7 +110,9 @@ const Work9 = () => {
                     onClick={() => handleRating(value)}
                     htmlFor={`star${value}`}
                     className={`text-4xl cursor-pointer transition-all duration-300 ease-in-out ${
-                      rating >= value ? "text-[#fbb40a]" : "text-gray-300"
+                      rating >= value
+                        ? "text-[#fbb40a]"
+                        : "text-gray-300 dark:text-gray-700"
                     }`}
                   >
                     ★

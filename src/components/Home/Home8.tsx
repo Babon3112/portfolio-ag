@@ -29,18 +29,18 @@ const Home8 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex flex-col w-[21rem] border border-gray-300 rounded-2xl tablet:m-0 mt-10">
-        <div className="flex justify-center mb-3">
-          <Image src="/cv.png" width={175} height={175} alt="" />
+      <div className="flex flex-col w-[23rem] h-52 border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-2xl tablet:m-0 mt-10">
+        <div className="flex justify-center my-1">
+          <Image src="/cv.png" width={170} height={170} alt="" />
         </div>
         <div
-          className="w-full border-t border-gray-300 cursor-pointer"
+          className="w-full border-t border-gray-300 dark:border-gray-700 cursor-pointer"
           onClick={downloadResume}
         >
-          <div className="flex text-gray-500 text-xs justify-center font-semibold mt-2">
+          <div className="flex text-gray-600 dark:text-gray-400 text-xs justify-center font-semibold mt-2">
             DOWNLOAD CV <FileDown className="size-4" />
           </div>
-          <h1 className="text-xl font-bold text-center mb-2">
+          <h1 className="text-xl font-bold text-center mb-2 text-gray-900 dark:text-gray-100">
             Curriculum Vitae
           </h1>
         </div>
