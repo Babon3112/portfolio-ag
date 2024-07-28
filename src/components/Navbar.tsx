@@ -33,9 +33,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#f5f5f5] dark:bg-gray-900 border-b dark:border-gray-700 border-gray-300">
+    <div className="bg-zinc-100 dark:bg-zinc-900 border-b dark:border-zinc-700 border-zinc-300">
       <div className="mx-auto h-24 flex mobile:max-w-7xl items-center justify-between px-4 py-2 mobile:px-6 laptop:px-8">
-        <h1 className="font-sofia font-bold text-2xl tablet:text-3xl text-gray-950 dark:text-gray-50">
+        <h1 className="font-sofia font-bold text-2xl tablet:text-3xl text-zinc-950 dark:text-zinc-50">
           Arnab&apos;s Portfolio
         </h1>
         <div className="hidden mobile:block">
@@ -44,7 +44,7 @@ const Navbar = () => {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className={`font-semibold text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 transition-all ${
+                  className={`font-semibold text-zinc-600 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 transition-all ${
                     pathname === item.href && "animate-pulse"
                   }`}
                 >
@@ -60,7 +60,7 @@ const Navbar = () => {
             href={"https://www.linkedin.com/in/babon3112/"}
             target="_blank"
             type="button"
-            className="bg-gray-50 text-gray-700 dark:bg-gray-800 dark:text-gray-300 px-4 py-3 shadow-sm rounded-full border border-gray-300 dark:border-gray-700 hover:shadow-lg hover:transition-all text-lg hover:text-gray-800 dark:hover:text-gray-200 duration-100 ease-in-out text-center"
+            className="bg-zinc-50 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 px-4 py-3 shadow-sm rounded-full border border-zinc-300 dark:border-zinc-700 hover:shadow-lg hover:transition-all text-lg hover:text-zinc-800 dark:hover:text-zinc-200 duration-100 ease-in-out text-center"
           >
             Know More!
           </Link>
@@ -72,14 +72,14 @@ const Navbar = () => {
               onClick={toggleMenu}
               strokeWidth={3}
               size={30}
-              className="cursor-pointer text-black dark:text-gray-50 animate-bounce"
+              className="cursor-pointer text-black dark:text-zinc-50 animate-bounce"
             />
           ) : (
             <Menu
               onClick={toggleMenu}
               strokeWidth={3}
               size={30}
-              className="cursor-pointer text-black dark:text-gray-50"
+              className="cursor-pointer text-black dark:text-zinc-50"
             />
           )}
         </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
                     pathname === item.href && "animate-pulse"
                   }`}
                 >
-                  <span className="text-black dark:text-gray-50">
+                  <span className="text-black dark:text-zinc-50">
                     {item.name}
                   </span>
                 </Link>

@@ -19,7 +19,7 @@ const Contact3 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="mt-8 flex w-[23rem] mobile:w-[40rem] tablet:w-80 border border-gray-300 bg-gray-50 rounded-xl p-5 pl-6 text-sm text-gray-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400">
+      <div className="mt-8 flex w-[23rem] mobile:w-[40rem] tablet:w-80 border border-zinc-300 bg-zinc-50 rounded-xl p-5 pl-6 text-sm text-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-400">
         <MapPin className="size-10 mr-1" />
         <h3 className="flex mb-1">
           Chunait Kalitala, Garerghat Road, Chunait, Arambagh, Hooghly, West

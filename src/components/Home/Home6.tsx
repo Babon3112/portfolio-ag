@@ -20,8 +20,8 @@ const Home6 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 bg-gray-50 rounded-xl mt-10 tablet:mt-0 mobile:mt-7 h-52 w-[23rem] mobile:w-[30rem] dark:border-gray-700 dark:bg-gray-800">
-        <div className="flex justify-evenly items-center border-b border-gray-300 dark:border-gray-700 h-[9.1rem]">
+      <div className="border border-zinc-300 bg-zinc-50 rounded-xl mt-10 tablet:mt-0 mobile:mt-7 h-52 w-[23rem] mobile:w-[30rem] dark:border-zinc-700 dark:bg-zinc-800">
+        <div className="flex justify-evenly items-center border-b border-zinc-300 dark:border-zinc-700 h-[9.1rem]">
           <Link
             href="https://mail.google.com/mail/u/0/?fs=1&to=arnabg3112@gmail.com&tf=cm"
             target="_blank"
@@ -66,10 +66,10 @@ const Home6 = () => {
           </Link>
         </div>
         <div className="flex flex-col items-center my-2">
-          <p className="text-gray-600 dark:text-gray-400 text-xs font-semibold ">
+          <p className="text-zinc-600 dark:text-zinc-400 text-xs font-semibold ">
             GET IN TOUCH
           </p>
-          <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+          <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
             Profiles
           </h1>
         </div>

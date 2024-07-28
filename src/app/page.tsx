@@ -10,13 +10,13 @@ import HomeText from "@/components/Home/HomeText";
 
 export default function Home() {
   return (
-    <div className="flex bg-gray-200 dark:bg-gray-950">
+    <div className="flex bg-zinc-200 dark:bg-zinc-950">
       <div className="mx-auto flex flex-col m-20">
         <div className="flex flex-col tablet:flex-row items-center">
           <Home1 />
           <div className="h-[16.5rem] space-y-7">
             <HomeText />
-            <div className="text-gray-950 dark:text-gray-50 flex justify-between mt-5 flex-col mobile:flex-row">
+            <div className="text-zinc-950 dark:text-zinc-50 flex justify-between mt-5 flex-col mobile:flex-row">
               <Home2 />
               <Home3 />
             </div>

@@ -34,8 +34,8 @@ const About6 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="border border-gray-300 rounded-2xl bg-gray-50 p-4 mobile:pb-2 w-[23rem] mobile:w-[40rem] dark:border-gray-700 dark:bg-gray-800">
-        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500 dark:text-gray-50">
+      <div className="border border-zinc-300 rounded-2xl bg-zinc-50 p-4 mobile:pb-2 w-[23rem] mobile:w-[40rem] dark:border-zinc-700 dark:bg-zinc-800">
+        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500 dark:text-zinc-50">
           | CERTIFICATIONS |
         </h1>
         <div className="flex justify-center items-center mt-12 mb-6">
@@ -72,7 +72,7 @@ const About6 = () => {
                     height={200}
                     objectFit="cover"
                   />
-                  <h3 className="text-sm tracking-wider m-6 dark:text-gray-400 text-gray-500">
+                  <h3 className="text-sm tracking-wider m-6 dark:text-zinc-400 text-zinc-500">
                     {certificate.name}
                   </h3>
                 </div>

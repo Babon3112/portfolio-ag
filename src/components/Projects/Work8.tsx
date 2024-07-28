@@ -25,7 +25,7 @@ const Work8 = () => {
           href="https://babon3112.github.io/javascript-projects/projects/10-StopWatch/index.html"
           target="_blank"
         >
-          <div className="bg-gray-50 dark:bg-gray-800 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
+          <div className="bg-zinc-50 dark:bg-zinc-800 w-[23rem] rounded-2xl flex flex-col items-center border border-zinc-300 dark:border-zinc-700 overflow-hidden">
             <div className="w-full overflow-hidden">
               <Image
                 width={370}
@@ -35,10 +35,10 @@ const Work8 = () => {
                 className="h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
               />
             </div>
-            <p className="mt-1 font-medium text-sm text-gray-500">
+            <p className="mt-1 font-medium text-sm text-zinc-500">
               Record Your Time
             </p>
-            <h1 className="flex mb-1 font-bold text-gray-800 dark:text-gray-200">
+            <h1 className="flex mb-1 font-bold text-zinc-800 dark:text-zinc-200">
               STOPWATCH
               <GitHub />
             </h1>
@@ -48,7 +48,7 @@ const Work8 = () => {
           href="https://babon3112.github.io/Rock-Paper-Scissor/"
           target="_blank"
         >
-          <div className="bg-gray-50 dark:bg-gray-800 mt-8 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
+          <div className="bg-zinc-50 dark:bg-zinc-800 mt-8 w-[23rem] rounded-2xl flex flex-col items-center border border-zinc-300 dark:border-zinc-700 overflow-hidden">
             <div className="w-full overflow-hidden">
               <Image
                 width={370}
@@ -58,10 +58,10 @@ const Work8 = () => {
                 className="h-[9.5rem] object-cover transform transition-all duration-300 hover:scale-110"
               />
             </div>
-            <p className="mt-1 font-medium text-sm text-gray-500">
+            <p className="mt-1 font-medium text-sm text-zinc-500">
               Have Some Chill
             </p>
-            <h1 className="flex mb-1 font-bold text-gray-800 dark:text-gray-200">
+            <h1 className="flex mb-1 font-bold text-zinc-800 dark:text-zinc-200">
               ROCK PAPER SCISSOR
               <GitHub />
             </h1>

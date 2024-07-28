@@ -22,7 +22,7 @@ const Work7 = () => {
       }`}
     >
       <Link href="https://babon3112.github.io/Tic-Tac-Toe/" target="_blank">
-        <div className="bg-gray-50 dark:bg-gray-800 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 tablet:mr-8 overflow-hidden">
+        <div className="bg-zinc-50 dark:bg-zinc-800 w-[23rem] rounded-2xl flex flex-col items-center border border-zinc-300 dark:border-zinc-700 tablet:mr-8 overflow-hidden">
           <div className="w-full h-[22.4rem] overflow-hidden">
             <Image
               width={370}
@@ -32,10 +32,10 @@ const Work7 = () => {
               className="h-full object-cover transform transition-all duration-300 hover:scale-110"
             />
           </div>
-          <p className="mt-4 mb-2 font-medium text-sm text-gray-500">
+          <p className="mt-4 mb-2 font-medium text-sm text-zinc-500">
             Play With Your Friends
           </p>
-          <h1 className="flex mb-4 font-bold text-gray-800 dark:text-gray-200">
+          <h1 className="flex mb-4 font-bold text-zinc-800 dark:text-zinc-200">
             TIC TAC TOE
             <GitHub />
           </h1>

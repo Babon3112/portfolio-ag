@@ -69,7 +69,7 @@ const Work9 = () => {
     >
       <div className="mobile:mt-0 mt-6">
         <Link href="https://github.com/Babon3112/portfolio-ag" target="_blank">
-          <div className="bg-gray-50 dark:bg-gray-800 w-[23rem] rounded-2xl flex flex-col items-center border border-gray-300 dark:border-gray-700 overflow-hidden">
+          <div className="bg-zinc-50 dark:bg-zinc-800 w-[23rem] rounded-2xl flex flex-col items-center border border-zinc-300 dark:border-zinc-700 overflow-hidden">
             <div className="w-full h-[15.5rem] overflow-hidden">
               <Image
                 width={370}
@@ -79,17 +79,17 @@ const Work9 = () => {
                 className="h-full transform transition-all duration-300 hover:scale-110 object-cover"
               />
             </div>
-            <p className="mt-2 mb-2 font-medium text-sm text-gray-500">
+            <p className="mt-2 mb-2 font-medium text-sm text-zinc-500">
               Portfolio Design
             </p>
-            <h1 className="flex mb-2 font-bold text-gray-800 dark:text-gray-200">
+            <h1 className="flex mb-2 font-bold text-zinc-800 dark:text-zinc-200">
               MY PORTFOLIO
               <GitHub />
             </h1>
           </div>
         </Link>
-        <div className="bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 w-[23rem] h-[5.8rem] mt-8 rounded-2xl">
-          <p className="text-center mb-1 text-gray-900 dark:text-gray-300">
+        <div className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-300 dark:border-zinc-700 w-[23rem] h-[5.8rem] mt-8 rounded-2xl">
+          <p className="text-center mb-1 text-zinc-900 dark:text-zinc-300">
             -rate my projects-
           </p>
           <div className="flex justify-center items-center">
@@ -112,7 +112,7 @@ const Work9 = () => {
                     className={`text-4xl cursor-pointer transition-all duration-300 ease-in-out ${
                       rating >= value
                         ? "text-[#fbb40a]"
-                        : "text-gray-300 dark:text-gray-700"
+                        : "text-zinc-300 dark:text-zinc-700"
                     }`}
                   >
                     ★

@@ -19,7 +19,7 @@ const Home1 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="flex border border-gray-300 dark:border-gray-700 rounded-2xl bg-gray-50 dark:bg-gray-800 w-[23rem] mobile:w-[30rem] mobile:h-[16rem] justify-center items-center mr-0 tablet:mr-5 mb-2 tablet:mb-0 mobile:p-8 p-4">
+      <div className="flex border border-zinc-300 dark:border-zinc-700 rounded-2xl bg-zinc-50 dark:bg-zinc-800 w-[23rem] mobile:w-[30rem] mobile:h-[16rem] justify-center items-center mr-0 tablet:mr-5 mb-2 tablet:mb-0 mobile:p-8 p-4">
         <div>
           <Image
             src="/Image.png"
@@ -30,13 +30,13 @@ const Home1 = () => {
           />
         </div>
         <div className="ml-4 mobile:space-y-4 space-y-2">
-          <h4 className="text-sm mobile:text-[14.5px] text-gray-500 font-semibold tracking-wider">
+          <h4 className="text-sm mobile:text-[14.5px] text-zinc-500 font-semibold tracking-wider">
             Full-Stack DEVELOPER
           </h4>
-          <h1 className="text-3xl mobile:text-5xl font-playwrite font-bold text-gray-950 dark:text-gray-50">
+          <h1 className="text-3xl mobile:text-5xl font-playwrite font-bold text-zinc-950 dark:text-zinc-50">
             Arnab Ghosh
           </h1>
-          <p className="text-xs tablet:text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-xs tablet:text-sm text-zinc-600 dark:text-zinc-400">
             I am a full-stack Developer based on Arambagh.
           </p>
         </div>

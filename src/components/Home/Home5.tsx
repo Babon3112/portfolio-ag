@@ -21,8 +21,8 @@ const Home5 = () => {
       }`}
     >
       <Link href={"/projects"}>
-        <div className="border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-xl text-center cursor-pointer h-52 w-[23rem] mobile:w-56 mt-10 mobile:mt-0">
-          <div className="border-b border-gray-300 dark:border-gray-700 flex justify-center">
+        <div className="border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 rounded-xl text-center cursor-pointer h-52 w-[23rem] mobile:w-56 mt-10 mobile:mt-0">
+          <div className="border-b border-zinc-300 dark:border-zinc-700 flex justify-center">
             <Image
               src="/skills.png"
               width={135}
@@ -32,10 +32,10 @@ const Home5 = () => {
             />
           </div>
           <div className="my-2">
-            <p className="text-gray-600 dark:text-gray-400 text-xs font-semibold">
+            <p className="text-zinc-600 dark:text-zinc-400 text-xs font-semibold">
               MY SKILLSETS
             </p>
-            <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
+            <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
               Skills
             </h1>
           </div>

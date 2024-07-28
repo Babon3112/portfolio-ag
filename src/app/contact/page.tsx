@@ -5,7 +5,7 @@ import Contact3 from "@/components/Contact/Contact3";
 
 const ContactPage = () => {
   return (
-    <div className="flex bg-[#f7f7f7] dark:bg-gray-950 justify-center h-[67.5vh]">
+    <div className="flex bg-zinc-200 dark:bg-zinc-950 justify-center h-[67.5vh]">
       <div className="mx-auto flex justify-between mobile:justify-center flex-col tablet:flex-row m-20">
         <Contact1 />
         <div className="tablet:ml-10">

@@ -21,8 +21,8 @@ const Home3 = () => {
       }`}
     >
       <Link href={"/projects"}>
-        <div className="border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 rounded-xl text-center cursor-pointer mt-10 mobile:mt-0 w-[23rem] mobile:w-56 mr-1">
-          <div className="border-b border-gray-300 dark:border-gray-700 flex justify-center">
+        <div className="border border-zinc-300 dark:border-zinc-700 bg-zinc-50 dark:bg-zinc-800 rounded-xl text-center cursor-pointer mt-10 mobile:mt-0 w-[23rem] mobile:w-56 mr-1">
+          <div className="border-b border-zinc-300 dark:border-zinc-700 flex justify-center">
             <Image
               src="/desktop.png"
               width={180}
@@ -32,10 +32,10 @@ const Home3 = () => {
             />
           </div>
           <div className="my-2">
-            <p className="text-blue-600 dark:text-blue-400 text-xs font-semibold mb-1">
+            <p className="text-zinc-600 dark:text-zinc-400 text-xs font-semibold mb-1">
               SHOWCASE
             </p>
-            <h1 className="text-xl font-bold mt-1 text-gray-900 dark:text-gray-100">
+            <h1 className="text-xl font-bold mt-1 text-zinc-900 dark:text-zinc-100">
               Projects
             </h1>
           </div>

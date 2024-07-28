@@ -51,8 +51,8 @@ const About5 = () => {
         showComponent ? "opacity-100" : "opacity-0"
       }`}
     >
-      <div className="mt-8 mb-8 border border-gray-300 rounded-2xl bg-gray-50 pt-4 mobile:p-4 p-2 mobile:pb-2 w-[23rem] mobile:w-[40rem] dark:border-gray-700 dark:bg-gray-800">
-        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500 dark:text-gray-50">
+      <div className="mt-8 mb-8 border border-zinc-300 rounded-2xl bg-zinc-50 pt-4 mobile:p-4 p-2 mobile:pb-2 w-[23rem] mobile:w-[40rem] dark:border-zinc-700 dark:bg-zinc-800">
+        <h1 className="text-center text-lg font-semibold tracking-wider hover:tracking-widest transition-all duration-500 dark:text-zinc-50">
           | Skills {moredata && <span>& Softwares</span>} |
         </h1>
         <div>
@@ -67,7 +67,7 @@ const About5 = () => {
                   <JS />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   80%
                 </h2>
               )}
@@ -82,7 +82,7 @@ const About5 = () => {
                   <Next />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   60%
                 </h2>
               )}
@@ -97,7 +97,7 @@ const About5 = () => {
                   <React />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   70%
                 </h2>
               )}
@@ -112,7 +112,7 @@ const About5 = () => {
                   <Node />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[17px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   75%
                 </h2>
               )}
@@ -127,7 +127,7 @@ const About5 = () => {
                   <Java />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   65%
                 </h2>
               )}
@@ -142,7 +142,7 @@ const About5 = () => {
                   <HTML />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   90%
                 </h2>
               )}
@@ -157,7 +157,7 @@ const About5 = () => {
                   <CSS />
                 </div>
               ) : (
-                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                   90%
                 </h2>
               )}
@@ -175,7 +175,7 @@ const About5 = () => {
                     <Mongo />
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16.5px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                     65%
                   </h2>
                 )}
@@ -190,7 +190,7 @@ const About5 = () => {
                     <TCSS />
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                     85%
                   </h2>
                 )}
@@ -205,7 +205,7 @@ const About5 = () => {
                     <Git />
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                     60%
                   </h2>
                 )}
@@ -220,7 +220,7 @@ const About5 = () => {
                     <VS />
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                     80%
                   </h2>
                 )}
@@ -235,7 +235,7 @@ const About5 = () => {
                     <Post />
                   </div>
                 ) : (
-                  <h2 className="h-full font-revalia text-xs mobile:text-[16.8px] flex justify-center items-center text-gray-50 font-semibold p-1">
+                  <h2 className="h-full font-revalia text-xs mobile:text-[16.8px] flex justify-center items-center text-zinc-50 font-semibold p-1">
                     75%
                   </h2>
                 )}
@@ -243,7 +243,7 @@ const About5 = () => {
             </div>
           )}
         </div>
-        <div className="w-full flex justify-center mt-6 dark:text-gray-400 text-gray-900">
+        <div className="w-full flex justify-center mt-6 dark:text-zinc-400 text-zinc-900">
           {moredata ? (
             <ChevronUp
               className="cursor-pointer animate-bounce"
